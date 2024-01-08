@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+::after ::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: scroll;
+}
+.Qoute-head{
+  color: rgb(59, 156, 241);
+}
+.quotebox{
+  display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.container-1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text .author{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.text-1{
+  text-align: center;
+  /* border: 5px solid; */
+  margin: auto;
+  /* width: 50%; */
+  padding: 10px;
+  /* overflow: auto; */
+  color: rgb(233, 59, 111);
+}
+.text {
+  font-size: 2rem;
+  margin: 1rem;
+  /* color: rgb(255, 0, 242); */
+}
+.Qoute-text{
+  color: rgb(226, 45, 181);
+}
+.quote {
+  padding: 3rem;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 3rem auto;
+  width: 90%;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: rgb(255, 145, 0);
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(255, 127, 238);
+}
+
+.Authors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+    margin: 2rem;
+}
+.m {
+  margin-top: 1rem;
+}
+@media only screen and (min-width:845px){
+  .c{
+    flex: 0 0 100%
+  }
+}
+.c{
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main {
+  box-sizing: border-box;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 3rem auto;
+  
+}
+.card {
+  background-color: rgb(177, 247, 15);
+  border: 3px solid rgba(10, 146, 236, 0.125);
+  border-radius: 0.25rem;
+  /* flex: 0 1 24%; */
+}
+.c-b {
+  min-height: 1px;
+  padding: 1.25rem;
+}
+/* .p-3{
+  padding: 0.5rem;
+} */
+
+@media only screen and (min-width:992px)
+{
+.l-1{
+  flex:0 1 24%;
+  max-width: 24%;
+}
+}
+
+@media  only screen and (min-width:792px) and (max-width:992px)
+{
+    .m-1{
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+@media only screen and (max-width: 792px)
+{
+    .s{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+  }

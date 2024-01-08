@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    height: 100%;
+  }
+@media only screen and (min-width:1356px)
+{
+    .large-1{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+@media only screen and  (max-width:1356px)
+{
+    .medium-1{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 796px)
+{
+    .small{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.body{
+    background-color: rgb(43, 42, 42);
+}
+
+.container{
+    /* height: 100%; */
+    /* max-width: 1400px; */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 2rem;
+}
+
+.large-3{
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+
+}
+
+.p{
+    padding: 0.5rem;
+}
+.h{
+    height: 100%;
+}
+.text{
+ text-align: center;
+}
+.card-body{
+  padding: 1.25rem;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+}
+
+img{
+    margin: auto;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.Abraham-main{
+    background-color: rgb(12, 113, 201);
+}
+.Abraham-mini{
+    background-color: rgb(233, 156, 55);
+}
+.Martin-main{
+    background-color: rgb(48, 240, 247);
+}
+.Martin-mini{
+    background-color: rgb(235, 148, 243);
+}
+
+.Albert-main{
+  background-color: rgb(44, 241, 120);
+}
+.Albert-mina{
+  background-color: rgb(206, 122, 240);
+}
+.Colin-main{
+ background-color: rgb(245, 224, 38);
+}
+.Colin-mini{
+ background-color: rgb(252, 125, 152);
+}
+.Joyce-main{
+ background-color: rgb(240, 116, 68);
+}
+.Joyce-mini{
+ background-color: rgb(243, 69, 156);
+}
+.Lao-main{
+ background-color: rgb(101, 230, 176);
+}
+.Lao-mini{
+ background-color: rgb(191, 125, 245);
+}
+.Nikola-main{
+ background-color: rgb(100, 90, 241);
+}
+.Nikola-mini{
+ background-color: rgb(140, 240, 153);
+}
+.Thomas-main{
+ background-color: rgb(243, 82, 70);
+}
+.Thomas-mini{
+background-color: rgb(218, 245, 100);
+}
